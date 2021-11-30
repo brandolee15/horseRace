@@ -21,8 +21,8 @@ let target = document.getElementById("btn");
 let title = document.getElementById("startRace");
 
 let race = () => {
-    title.innerHTML = "race results";
-    target.innerHTML = "race again";
+    title.innerHTML = "Race Results";
+    target.innerHTML = "Race Again";
     for (let names in horseNames) {
     list.appendChild(list.children[Math.random() * names | 0]); //copy pasted from google
     } //list.children all is child elements
@@ -31,7 +31,7 @@ let race = () => {
 let target2 = document.getElementById("btn-2");
 
 let changeColor = () => {
-    title.innerHTML = "start race";
+    title.innerHTML = "Start Race";
     while(list.firstChild){
         list.removeChild(list.firstChild) //stops from duplicating by removing list items
     }
