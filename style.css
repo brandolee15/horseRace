@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'roboto';
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+ 
+}
+
+#startRace {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+li {
+    font-weight: bold;
+}
+
+button { 
+    width: 50%;   
+}
+
+#btn, #btn-2 {
+    margin: 10px;
+}
+
+.horse {
+    max-width: 30px; 
+    margin-left: 4px;
+}
+
+.hidden {
+    display: none;
+}
