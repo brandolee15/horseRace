@@ -1,5 +1,5 @@
-let horseNames = ["Jagan", "Phillip", "Safwan", "Brandon", "Zain", "Tatiana", "Anna", "Marina", "Yagnesh", "Eddie"]
-let colors = ["red", "green", "yellow", "purple", "gold", "silver", "blue", "grey", "pink", "violet", "orange"]
+let horseNames = ["Jagan", "Phillip", "Safwan", "Brandon", "Zain", "Tatiana", "Anna", "Marina", "Yagnesh", "Eddie","Julian","Franklyn","Josh","Sharen","Hayden","Pete","Jakcika","Noamaan"]
+let colors = ["red", "green", "yellow", "purple", "gold", "silver", "blue", "grey", "pink", "violet", "orange","Azure","Beige","Bisque","brown","greenyellow","chocolate","darkblue","darkmagenta"]
 
 let list = document.getElementById("horses");
 
